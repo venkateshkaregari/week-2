@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <CENTER><h1 style="display: inline-block; padding: 1%0px; border: 6px solid rgb(255, 0, 0); border-radius: 1%; text-align: center; color: rgb(255, 0, 0);">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1></CENTER>
+  <CENTER><H2>GENERAL BUS PASS APPLICATION</H2></center>
+    <form method="get" action="https://cdnblog.webkul.com/blog/wp-content/uploads/2018/03/Success-Message-1.png">
+    <fieldset>
+      <legend><b>Applicant Details</b></legend>
+      
+      <label for="name">Name*:</label>
+      <input type="text" id="name" name="name" pattern="[a-zA-Z]+" minlength="4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <label for="fname">Father's/Guardian Name*:</label> 
+      <input type="text" id="fname" name="fname" pattern="[a-zA-Z]+" minlength="5">
+      <br><br><br>
+      <label for="dob">Date of Birth*:</label>
+      <input type="date" name="date" id="date" pattern="[0-9]+">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="gender">Gender*:</label>
+      <input type="radio" name="gender" id="gender"  gender="Male" required>Male
+      <input type="radio" name="gender" id="gender" gender="Female" required>Female
+      <br><br><br>
+     <label for="age">Age as on*:</label>
+    <input type="text" id="age" name="age" pattern="[0-9]+" >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <label for="Aadhar">Aadhar No*:</label>
+    
+    <input type="text" id="anumber" name="anumber" pattern="[0-9]+ " ><br><br><br>
+    <label for="Whatsapp">Whatsapp No*:</label>
+    <input type="text" id="number" name="number" pattern="[/+91][6789][0-0]{9}" >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="E-Mail">E-Mail id*;</label>
+    <input type="email" name="E-Mail" id="E-Mail" pattern="[a-z][0-9][@]{}">
+    <br><br><br>
+    <label for="photo">Photo*:</label>
+    <input type="file" value="Choose file" >
+    
+    </fieldset>
+    <br><br>
+    <fieldset>
+      <legend><b>Residential Address Details</b></legend>
+      <br>
+      <label for="Address">Applicant Address:</label>
+      <input type="text" name="Address" id="Address"  pattern=".{}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="district">District:</label>
+      <select name="district" id="district">
+        <option >Hyderabad</option>
+      </select> <br><br><br>
+      <label for="mandal">Mandal</label>
+            <select>
+                <option>Hyderabad</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="village">Village</label>
+            <select name="village">
+                <option>Hyderabad</option>
+            </select><br><br><br>
+            <label for="text">Pincode</label>
+            <input type="text" id="pincode" name="pincode" pattern="[0-9]+" required autocomplete="off">
+        </fieldset><br>
+        <fieldset>
+          <legend><b>Pass Type Details</b></legend>
+          <label for="city">City:</label>
+          <select name="city">City:
+            <option>select </option>
+            <option>nzb</option>
+            <option>Hyderabad</option>
+          </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="passtype">Passtype:</label>
+          <select name="type" id="type">
+            <option>select</option>
+            <option >student</option>
+          </select>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend><b>Mode Of Payment & Pass Collection</b></legend>
+          <label for="paymentmode">Payment Mode</label>
+          <select name="paymentmode">
+              <option name="">select payment mode</option>
+              <option name="">hyderabad</option>
+          </select><br><br>
+          <label for="pass delivery mode">Pass Delivery Mode</label>
+          <select name="pass delivery mode">
+              <option>select pass delivery mode</option>
+              <option>live</option>
+          </select><br><br>
+          <label for="collect pass">Center at which you want to collect pass</label>
+          <select name=collect pass>
+              <option>select</option>
+              <option>Bus depot</option>
+          </select>
+      </fieldset>
+      <br>
+      <center>
+    <img src="https://tse2.mm.bing.net/th?id=OIP.foQhyM9YUqWxD_ZDYTSUVQHaDJ&pid=Api&P=0&h=180" alt="reload" width="100">
+    <br><br>
+    
+    <input type="text" name="captch" pattern="[a-zA-Z0-9]{6}" required autocomplete="off"><br><br>
+        <input type="submit" value="submit">
+      </center>
+      </form>
+</body>
+</html>
